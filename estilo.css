@@ -1,8 +1,25 @@
 
 .h1{
-    display: flex;
-    color: wheat;
+    display: inline;
+    position: fixed; 
+    width: 200px;
+    float: left;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
 }
-.body{
-    background: url(https://es.images.search.yahoo.com/images/view;_ylt=AwrFFCseO2Zl75wUVTqV.Qt.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2FlZDczNzk4OTg5NWJjZmEwYjRiM2M4ZDk3MWExMThmBGdwb3MDMTUEaXQDYmluZw--?back=https%3A%2F%2Fes.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dfondo%2Bde%2Bpantalla%2Bnavide%25C3%25B1o%26type%3DE210ES91082G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D15&w=1920&h=1200&imgurl=arquigrafico.com%2Fwp-content%2Fuploads%2F2014%2F12%2FChristmas_wallpaper_1920x1200_11.jpg&rurl=https%3A%2F%2Farquigrafico.com%2F50-fondos-de-pantallas-de-navidad-y-ao-nuevo%2F&size=531.3KB&p=fondo+de+pantalla+navide%C3%B1o&oid=aed737989895bcfa0b4b3c8d971a118f&fr2=piv-web&fr=mcafee&tt=Cincuenta+Fondos+de+Pantallas+de+Navidad+y+A%C3%B1o+Nuevo+Para+tu+...&b=0&ni=21&no=15&ts=&tab=organic&sigr=1WozgqTgmRjE&sigb=KGfdL49uvvkN&sigi=T5asa2MmHcqB&sigt=nzwiwrFDI1OD&.crumb=GCjmV9t/wli&fr=mcafee&fr2=piv-web&type=E210ES91082G0);
+body{
+    background-image: url(https://arquigrafico.com/wp-content/uploads/2014/12/Christmas_wallpaper_1920x1200_04.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
 }
