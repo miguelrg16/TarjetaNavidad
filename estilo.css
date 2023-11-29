@@ -11,16 +11,31 @@
 
 body{
     background-image: url(https://arquigrafico.com/wp-content/uploads/2014/12/Christmas_wallpaper_1920x1200_04.jpg);
-    background-size: cover;
-    background-position: center;
     height: 100vh;
     margin: 0;
     display: flex;
-    flex-direction: row;
-    min-height: 100vh;
-    justify-content: space-between;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select:none;
-    user-select:none;
+    width: 95%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+ 
+}
+.div1{
+    background-image: url(https://duendecrispin.com/gif/xmas-minigifs/minigifs_11.gif);
+    width: 100px;
+    height: 85px;
+    position: fixed;
+    right: 15px;
+}
+.img1{
+    max-width: 100%;
+    height: auto;
+    
+}
+.img2{
+    position: fixed;
+    left: 1027px;
+    bottom: 220px;
+
+    width: 70px;
+    height: 70px;
 }
