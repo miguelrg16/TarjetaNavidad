@@ -12,20 +12,12 @@
 body{
     width: 95%;
     background-image: url(https://arquigrafico.com/wp-content/uploads/2014/12/Christmas_wallpaper_1920x1200_04.jpg);
-<<<<<<< HEAD
     height: 100vh;
     margin: 0;
     display: flex;
     width: 95%;
     background-size: 100% 100%;
     background-attachment: fixed;
- 
-=======
-    display: flex;
-    height: 100vh;
-    margin: 0;
-    background-size: 100% 100%;
-    background-attachment: fixed ;
 }
 
 .div1{
@@ -37,7 +29,6 @@ body{
     left: 1300px;
     top: 25px;
     background-image: url(https://th.bing.com/th/id/R.8d4a0aca1d761403849d588ba06780ef?rik=qm7yaToXaowduQ&riu=http%3a%2f%2fwww.canalgif.net%2fGifs-animados%2fNavidad%2fCampanas-de-navidad%2fImagen-animada-Campana-de-navidad-31.gif&ehk=eUHWOLOQcORfFBONK5tFKj%2fKPXVNn3O6lxQ24YK9hr4%3d&risl=&pid=ImgRaw&r=0);
->>>>>>> 245f10cf098f2fa408c62bf91f0ccbaf5a54cee6
 }
 .div1{
     background-image: url(https://duendecrispin.com/gif/xmas-minigifs/minigifs_11.gif);
