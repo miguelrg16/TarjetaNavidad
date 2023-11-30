@@ -48,7 +48,11 @@ body{
     position: fixed;
     left: 1027px;
     bottom: 220px;
-
     width: 70px;
     height: 70px;
+}
+.felinavida{
+    color: white;
+    position: fixed;
+    left: 40%;
 }
