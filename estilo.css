@@ -62,3 +62,109 @@ body{
     position: fixed;
     bottom: 1px;
 }
+
+/*hhshshshhshshshs*/
+
+
+.logo {
+    background: 0;
+    margin-top: 23px;
+    margin-left: 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+    }
+    
+    #headerwrap {
+    color: #E04006;
+    text-shadow:1px 1px 1px #343434;
+    background: #2E3639;
+    padding: 0;
+    margin:0;
+    margin-top:-30px;
+    font-family:tahoma, arial, sans-serif;
+    height: 70px;
+    text-align:center;
+    line-height:70px
+    }
+    
+    #headerwrap a{
+      color: #FFF;
+    }
+    
+    .santa {
+    background: url(http://myskins.org/images/santas.gif) no-repeat right;
+    background-size: 240px;
+    background-position-y: 30px;
+    padding-top: 0px;
+    height: 145px;
+    right: 0;
+    text-align: right;
+    }
+    
+    .arbol {
+    background: url(http://myskins.org/images/ctree.png)bottom center;
+    padding: 0;
+    height: 145px;
+    -moz-animation: bgscroll 370s infinite linear;
+    -ms-animation: bgscroll 370s infinite linear;
+    -o-animation: bgscroll 370s infinite linear;
+    -webkit-animation: bgscroll 370s infinite linear;
+    }
+    
+    .topwrap1 {
+    position: fixed;
+    bottom: 0%;
+    right: 50px;
+    color: #777;
+    background: #FFF url(http://myskins.org/images/Mountain.png) top center repeat-x;
+    padding: 0;
+    margin:0;
+    height: 165px;
+    border-bottom: 0 solid #333;
+    margin: auto auto;
+    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.4) inset,0 0 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    .topwrap1 {
+    -moz-animation: bgscroll 750s infinite linear;
+    -ms-animation: bgscroll 750s infinite linear;
+    -o-animation: bgscroll 750s infinite linear;
+    -webkit-animation: bgscroll 750s infinite linear;
+    }
+    /* BEGIN ANIMATIONS */
+    
+    @-webkit-keyframes bgscroll {
+        from {background-position: 0 0;}
+        to {background-position: -9999px 0;}
+    }
+    
+    @-moz-keyframes bgscroll {
+        from {background-position: 0 0;}
+        to {background-position: -9999px 0;}
+    }
+    
+    @-ms-keyframes bgscroll {
+        from {background-position: 0 0;}
+        to {background-position: -9999px 0;}
+    }
+    
+    @-o-keyframes bgscroll {
+        from {background-position: 0 0;}
+        to {background-position: -9999px 0;}
+    }
+    
+    @keyframes bgscroll {
+        from {background-position: 0 0;}
+        to {background-position: -9999px 0;}
+    }
+    
+    .wrap{
+      width: 95%;
+      min-width: 1150px;
+      max-width: 1200px;
+      margin:0 auto;
+      text-align:left
+    }

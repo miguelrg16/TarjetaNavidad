@@ -11,4 +11,8 @@ function cambiarColor() {
 
 setInterval('cambiarColor()', 1000);
 
+jQuery(function($) {
+  $().jSnow();
+  });
+
  
