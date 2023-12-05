@@ -1,18 +1,20 @@
+var colores = ["red", "blue", "green", "orange", "purple"]; // Puedes agregar más colores aquí
+var indiceColor = 0;
 
-const titulo = document.getElementById('1');
-const colores = ['red', 'blue', 'green', 'orange', 'purple']; 
-
-let indiceColor = 0;
-
-function cambiarColor() {
-  titulo.style.color = colores[indiceColor];
-  indiceColor = (indiceColor ++) % colores.length; 
+function cambiarColorAutomaticamente() {
+  var elemento = document.getElementById("texto");
+  elemento.style.color = colores[indiceColor];
+  indiceColor = (indiceColor + 1) % colores.length;
 }
 
-setInterval('cambiarColor()', 1000);
+// Cambiar automáticamente cada 3 segundos (3000 milisegundos)
+setInterval(cambiarColorAutomaticamente, 100);
+
 
 jQuery(function($) {
   $().jSnow();
   });
+
+
 
  

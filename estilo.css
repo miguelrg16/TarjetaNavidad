@@ -12,7 +12,6 @@
 body{
     width: 95%;
     background-image: url(https://arquigrafico.com/wp-content/uploads/2014/12/Christmas_wallpaper_1920x1200_04.jpg);
-
     height: 100vh;
     margin: 0;
     display: flex;
@@ -51,7 +50,7 @@ body{
     height: 70px;
 }
 .felinavida{
-    color: white;
+    
     position: fixed;
     left: 40%;
 }
