@@ -1,4 +1,4 @@
-var colores = ["red", "blue", "green", "orange", "purple"]; // Puedes agregar más colores aquí
+var colores = ["red", "blue", "green", "orange", "purple", "yellow"]; // Puedes agregar más colores aquí
 var indiceColor = 0;
 
 function cambiarColorAutomaticamente() {
@@ -8,7 +8,7 @@ function cambiarColorAutomaticamente() {
 }
 
 // Cambiar automáticamente cada 3 segundos (3000 milisegundos)
-setInterval(cambiarColorAutomaticamente, 100);
+setInterval(cambiarColorAutomaticamente, 200);
 
 
 jQuery(function($) {
