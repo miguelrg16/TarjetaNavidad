@@ -3,15 +3,27 @@
     display: inline;
     position: fixed; 
     width: 200px;
+    height: 636px;
     float: left;
     margin-top: 5px;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
+    border: 2px solid #ff0000;
+    
 }
-
+.musica{
+    width:200px ;
+    height:100px ;
+}
+.musicaf{
+    width:200px ;
+    height:100px ;  
+}
+.musicafl{
+    width:200px ;
+    height:100px ;  
+}
 body{
     width: 95%;
-    background-image: url(https://arquigrafico.com/wp-content/uploads/2014/12/Christmas_wallpaper_1920x1200_04.jpg);
+    background-image: url(https://s1.1zoom.me/big3/86/360127-blackangel.jpg);
     height: 100vh;
     margin: 0;
     display: flex;
@@ -48,6 +60,14 @@ body{
     bottom: 220px;
     width: 70px;
     height: 70px;
+}
+.gato{
+    width: 200px;
+    height: 100px;
+}
+.gato2{
+    width: 200px;
+    height: 100px;
 }
 .felinavida{
     position: fixed;
@@ -133,3 +153,5 @@ body{
       margin:0 auto;
       text-align:left
     }
+
+

@@ -11,10 +11,13 @@ function cambiarColorAutomaticamente() {
 setInterval(cambiarColorAutomaticamente, 200);
 
 
-jQuery(function($) {
-  $().jSnow();
+
+  
+  $(document).ready( function(){
+      $.fn.snow();
   });
+  
 
-
+  
 
  
