@@ -3,7 +3,7 @@
     display: inline;
     position: fixed; 
     width: 200px;
-    height: 636px;
+    height: 616px;
     float: left;
     margin-top: 5px;
     border: 2px solid #ff0000;
@@ -11,15 +11,15 @@
 }
 .musica{
     width:200px ;
-    height:100px ;
+    height:90px ;
 }
 .musicaf{
     width:200px ;
-    height:100px ;  
+    height:95px ;  
 }
 .musicafl{
     width:200px ;
-    height:100px ;  
+    height:95px ;  
 }
 body{
     width: 95%;
