@@ -16,8 +16,20 @@ setInterval(cambiarColorAutomaticamente, 200);
   $(document).ready( function(){
       $.fn.snow();
   });
-  
 
+  let newPage = null;
+
+  document.getElementById('openButton').addEventListener('click', function() {
+    if (newPage === null || newPage.closed) {
+      // Si la página no está abierta o está cerrada, la abrimos
+      newPage = window.open('', '_blank');
+      newPage.document.write('<html><head><title>Nueva Página</title></head><body></body></html>');
+    } else {
+      // Si la página está abierta, la cerramos
+      newPage.close();
+      newPage = null;
+    }
+  });
   
 
  

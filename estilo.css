@@ -32,16 +32,25 @@ body{
     background-attachment: fixed;
 }
 
+button {
+    position:fixed;
+    left: 40%;
+    top: 50%;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
 .campanas{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     justify-content: right;
     float: right;
     display: flex;
     clear: right;
     position: fixed;
-    left: 1300px;
-    top: 25px;
+    left: 1100px;
+    top: 200px;
 }
 .div1{
     background-image: url(https://duendecrispin.com/gif/xmas-minigifs/minigifs_11.gif);
