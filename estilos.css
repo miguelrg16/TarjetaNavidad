@@ -1,0 +1,27 @@
+.myButton{
+    box-shadow: 0px 0px 0px 2px #ffffff;
+	background:linear-gradient(to bottom, #ff0000 5%, #ffa6a6 100%);
+	background-color:#ff0000;
+	border-radius:10px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:30px;
+	padding:32px 100px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+    position: fixed; 
+    top: 2pxs;
+    right: 2px;
+    width: 40px;
+    height: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffa6a6 5%, #ff0000 100%);
+	background-color:#ffa6a6;
+}
+body{
+    background: url(https://acegif.com/wp-content/uploads/2021/4fh5wi/christmas-lights-acegif-45.gif);
+}
