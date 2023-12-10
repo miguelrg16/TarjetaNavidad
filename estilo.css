@@ -239,3 +239,33 @@ body{
             width: 0;
         }
       }
+@media screen and (max-width: 780px) {
+        .myButton{ 
+            left: 210px;
+            width: 10px;
+            height: 20px;
+            font-size: 18px;
+            padding: 10px 70px;
+            text-align: center;
+        }
+        .h1{
+            height: 445px;
+            top: 60px;
+        }
+        .gato{
+            width: 0px;
+            height: 0px;
+        }
+        .gato2{
+            width: 0px;
+            height: 0px;
+        }
+        .felinavida{
+            top: 0%;
+            left: 50px;
+        }
+        .reyes{
+            height: 0;
+            width: 0;
+        }
+      }
