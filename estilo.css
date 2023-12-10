@@ -10,7 +10,6 @@
     float: left;
     margin-top: 5px;
     border: 2px solid #ff0000;
-    
 }
 .musica{
     width:200px ;
@@ -73,16 +72,16 @@ body{
 
 @keyframes moverse {
     from{
-
-       
+  
          top: 10%; 
-        right: 10%;
+        right: 2%;
     }
     to{
-        top: 90%; 
-        right: 90%;
+        top: 10%; 
+        right: 80%;
     }
 } 
+
 
 
 .gato{
