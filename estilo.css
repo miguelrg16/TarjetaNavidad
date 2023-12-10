@@ -64,11 +64,26 @@ body{
     height: 85px;
     position: fixed;
     right: 0px;
+    animation: moverse 5s infinite;
 }
 .img1{
     max-width: 100%;
     height: auto;
 }
+
+@keyframes moverse {
+    from{
+
+       
+         top: 10%; 
+        right: 10%;
+    }
+    to{
+        top: 90%; 
+        right: 90%;
+    }
+} 
+
 
 .gato{
     width: 200px;
