@@ -1,6 +1,3 @@
-.paginaGeneral{
-    float: left;
-}
 
 .h1{
     display: inline;
@@ -39,22 +36,32 @@ body{
     min-height: 100vh;
 }
 
-.boton-esquizo {
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #ffffff;
+	background:linear-gradient(to bottom, #ff0000 5%, #ffa6a6 100%);
+	background-color:#ff0000;
+	border-radius:10px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:60px;
+	padding:32px 100px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
     position: fixed; 
-    bottom: 490px;
+    bottom: 400px;
     left: 452px;
-    background-color: gray;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+    width: 200px;
+    height: 100px;
 }
-.boton-esquizo:hover{
-    color: yellow;
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffa6a6 5%, #ff0000 100%);
+	background-color:#ffa6a6;
 }
-  
+
 
 
 .div1{
@@ -72,7 +79,6 @@ body{
 
 @keyframes moverse {
     from{
-  
          top: 10%; 
         right: 2%;
     }
@@ -81,8 +87,6 @@ body{
         right: 80%;
     }
 } 
-
-
 
 .gato{
     width: 200px;
@@ -96,7 +100,20 @@ body{
     position: fixed;
     left: 40%;
 }
-
+.reyes{
+    position: fixed;
+    top: 60%;
+    left: 30%;
+    width: 150px;
+    height: 100px;
+}
+.papanoel{
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    width: 150px;
+    height: 100px;
+}
 
 /*hhshshshhshshshs*/
  
@@ -191,3 +208,64 @@ body{
             top: calc(100vh + 50px);
         }
     }
+
+    @media screen and (max-width: 480px) {
+        .myButton{ 
+            left: 210px;
+            width: 10px;
+            height: 20px;
+            font-size: 18px;
+            padding: 10px 70px;
+            text-align: center;
+        }
+        .h1{
+            height: 445px;
+            top: 60px;
+        }
+        .gato{
+            width: 0px;
+            height: 0px;
+        }
+        .gato2{
+            width: 0px;
+            height: 0px;
+        }
+        .felinavida{
+            top: 0%;
+            left: 30px;
+        }
+        .reyes{
+            height: 0;
+            width: 0;
+        }
+      }
+@media screen and (max-width: 780px) {
+        .myButton{ 
+            left: 210px;
+            width: 10px;
+            height: 20px;
+            font-size: 18px;
+            padding: 10px 70px;
+            text-align: center;
+        }
+        .h1{
+            height: 445px;
+            top: 60px;
+        }
+        .gato{
+            width: 0px;
+            height: 0px;
+        }
+        .gato2{
+            width: 0px;
+            height: 0px;
+        }
+        .felinavida{
+            top: 0%;
+            left: 50px;
+        }
+        .reyes{
+            height: 0;
+            width: 0;
+        }
+      }
