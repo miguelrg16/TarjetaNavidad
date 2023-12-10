@@ -1,6 +1,6 @@
-
-
-
+.paginaGeneral{
+    float: left;
+}
 
 .h1{
     display: inline;
@@ -118,7 +118,7 @@ body{
     -ms-animation: bgscroll 370s infinite linear;
     -o-animation: bgscroll 370s infinite linear;
     -webkit-animation: bgscroll 370s infinite linear;
-    }
+}
     
 .topwrap1 {
     position: fixed;
