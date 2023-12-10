@@ -31,5 +31,5 @@ setInterval(cambiarColorAutomaticamente, 200);
     }
   });
   
-
+s
  

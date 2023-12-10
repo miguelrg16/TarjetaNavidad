@@ -1,4 +1,7 @@
 
+
+
+
 .h1{
     display: inline;
     position: fixed; 
@@ -28,48 +31,45 @@ body{
     margin: 0;
     display: flex;
     width: 95%;
-    background-size: 100% 100%;
     background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
 }
 
-button {
-    position:fixed;
-    left: 40%;
-    top: 50%;
-    padding: 10px 20px;
-    font-size: 16px;
+.boton-esquizo {
+    position: fixed; 
+    bottom: 490px;
+    left: 452px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
     cursor: pointer;
-  }
-
-.campanas{
-    height: 100px;
-    width: 100px;
-    justify-content: right;
-    float: right;
-    display: flex;
-    clear: right;
-    position: fixed;
-    left: 1100px;
-    top: 200px;
+    transition: transform 0.3s ease;
 }
+.boton-esquizo:hover{
+    color: yellow;
+}
+  
+
+
 .div1{
     background-image: url(https://duendecrispin.com/gif/xmas-minigifs/minigifs_11.gif);
     width: 100px;
     height: 85px;
     position: fixed;
-    right: 15px;
+    right: 0px;
 }
 .img1{
     max-width: 100%;
     height: auto;
 }
-.img2{
-    position: fixed;
-    left: 1027px;
-    bottom: 220px;
-    width: 70px;
-    height: 70px;
-}
+
 .gato{
     width: 200px;
     height: 100px;
@@ -82,13 +82,7 @@ button {
     position: fixed;
     left: 40%;
 }
-.cuadrao{
-    background-color: aliceblue;
-    width: 80px;
-    height: 50px;
-    position: fixed;
-    bottom: 1px;
-}
+
 
 /*hhshshshhshshshs*/
  
@@ -164,3 +158,22 @@ button {
     }
 
 
+    /*nieveee*/
+    i {
+        position: absolute;
+        
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: inset 0 -1px 1px rgb(114, 114, 114);
+        top: -10px;
+        animation: nieve linear infinite;
+    }
+    
+    @keyframes nieve {
+        0% {
+            top: -10px;
+        }
+        100% {
+            top: calc(100vh + 50px);
+        }
+    }
