@@ -37,3 +37,7 @@ body{
     overflow: hidden;
     min-height: 100vh;
 }
+
+.letras{
+	color: #ffffff;
+}
