@@ -23,5 +23,17 @@
 	background-color:#ffa6a6;
 }
 body{
-    background: url(https://acegif.com/wp-content/uploads/2021/4fh5wi/christmas-lights-acegif-45.gif);
+    background-image: url(https://acegif.com/wp-content/uploads/2021/4fh5wi/christmas-lights-acegif-45.gif);
+	width: 95%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    width: 95%;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
 }
